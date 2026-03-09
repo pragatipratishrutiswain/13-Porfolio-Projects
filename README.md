@@ -9,5 +9,6 @@
 - Setting up report refresh
 - Implementing RLS (Row Level Securiry)
 
-  <img width="768" height="344" alt="image" src="https://github.com/user-attachments/assets/e34721a4-bb05-4382-ad70-90954c24eed7" />
+<img width="379" height="166" alt="image" src="https://github.com/user-attachments/assets/768b288c-9dfb-4279-a082-8c5eceec9d33" />
+
 
