@@ -6,7 +6,7 @@
 4️⃣ Data Visualization<br>
 5️⃣ Report & Dashboard Creation<br>
 6️⃣ Report Sharing<br>
-7️⃣ Setting up report refresh<br>
+7️⃣ Setting up report refresh (Scheduled VS Incremental)<br>
 8️⃣ Implementing RLS (Row Level Securiry)
 
 <img width="379" height="166" alt="image" src="https://github.com/user-attachments/assets/768b288c-9dfb-4279-a082-8c5eceec9d33" />
