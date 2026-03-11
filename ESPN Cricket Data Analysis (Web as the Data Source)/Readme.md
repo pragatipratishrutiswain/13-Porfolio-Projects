@@ -30,7 +30,7 @@
 - Select table - "Overal Figures"
 - Choose "Transform"
 
-## In Power query editor
+## In Power Query editor
 - Home
 - Use first row as headers
 - Remove last column (Unnecessary column)
