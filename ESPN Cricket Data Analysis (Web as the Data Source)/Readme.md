@@ -13,5 +13,12 @@
 - Home or away: home
 - Submit query
 
+## Power BI desktop page set up. Go to
+- File
+- Options & settings
+- Options
+- Data load
+- Type Detection
+- Select option 3: "Never detect column types and headers for unstructured sources."
 
 
