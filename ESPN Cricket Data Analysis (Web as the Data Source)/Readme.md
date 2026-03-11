@@ -21,7 +21,7 @@
 - Type Detection
 - Select option 3: "Never detect column types and headers for unstructured sources."
 
-## For Web as the Data Source, Select
+## For Web as the Data Source, select
 - Get Data
 - Web
 - URL
