@@ -29,7 +29,7 @@
 - Click Ok
 
 # Method 1 - Incase of Multiple tables 
-- Select table - "Overal Figures"
+- **Select table - "Overal Figures"**
 - Choose "Transform"
 
 ## In Power Query editor
@@ -38,8 +38,8 @@
 - Remove last column (Unnecessary column)
 - Close & Apply
  
-# Method 2 (Better way)- Incase of Multiple table
-- Add table using examples
+# Method 2 (Better way for data cleaning)- Incase of Multiple table
+- **Add table using examples**
 - Copy the first row from the original table
 - Copy the second row from the original table
 - Now Power BI auto detects the right table for us
@@ -47,8 +47,21 @@
 - Transform Data
   
 ## In Power Query editor
-- Got the page-1 first 50 records. But, we need to get the entire 106 records. SO we need some M Query scripting
+- Got the page-1 first 50 records. But, we need to get the entire 106 records. So we need some M Query scripting
 - Home tab
 - Advanced editor
--  
-
+- M Query Command Line - change Page = 1 to Page = "&ps&" (this is a variable for the upcoming function).<br>
+  Above "Let" define a function -: **(ps as text) =>**
+- Go to "PROPERTIES", Name the function as - ESPN
+- In the left function name ESPN area, right click, select - New Query -> Blank Query
+- Go to formula bar (*fx*) create a list and write, = {1..3}, press enter
+- Convert the list into a table - go to top left -> Click "To Tale", click Ok
+- Change the data type to a text (Right click ABC 123 on column1, select Text)
+- In the Ribbon, go to - Add Column -> Invoke custom function -> New column name = Custom, Function query = ESPN, ps -> Column1
+- Press Ok
+- Expand ESPN, Load more, Default column name prefix(optional) - remove ESPN, Click Ok
+- On the Ribbon click "View", See "Column profile", Count rows = 106, matches with the Original table in Web.
+- Remove Column1
+- Rename Column1.1 to Column1
+  
+## Setting Headers as per the web in Power Query
