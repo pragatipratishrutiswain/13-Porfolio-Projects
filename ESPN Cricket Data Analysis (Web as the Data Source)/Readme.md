@@ -56,7 +56,7 @@
 - In the left function name ESPN area, right click, select - New Query -> Blank Query
 - Go to formula bar (*fx*) create a list and write, = {1..3}, press enter
 - Convert the list into a table - go to top left -> Click "To Table", click Ok
-- Change the data type to a text (Right click ABC 123 on column1, select Text)
+- Change the data type to a text (Left click ABC 123 on column1, select Text)
 - In the Ribbon, go to - Add Column -> Invoke custom function -> New column name = Custom, Function query = ESPN, ps -> Column1
 - Press Ok
 - Expand ESPN, Load more, Default column name prefix(optional) - remove ESPN, Click Ok
