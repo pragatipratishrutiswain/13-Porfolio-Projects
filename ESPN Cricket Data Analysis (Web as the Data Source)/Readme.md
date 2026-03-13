@@ -3,7 +3,7 @@
 2️⃣ Use publicly available ESPN cricket data online<br>
 3️⃣ We are interested only in ODIs
 
-## Getting the data by Web Scrapping:
+## Getting the data by:
 - Google search bar
 - Search "espn cricinfo statsguru"
 - Select "ODI"
@@ -21,7 +21,7 @@
 - Type Detection
 - Select option 3: "Never detect column types and headers for unstructured sources."
 
-## For Web as the Data Source, select
+## For Web as the Data Source (Web Scrapping), select
 - Get Data
 - Web
 - URL
