@@ -67,7 +67,7 @@
 ## Setting Headers as per the web in Power Query
 - Go to ESPN website table, copy the column names
 - open an excel sheet and paste the names
-- Copy the column names then in the next row type Cntrl+Alt+V to paset values
+- Copy the column names then in the next row type Cntrl+Alt+V to paste values
 - Remove the first record, Cntrl - (minus)
 - Copy the column names, go to power query, Home tab -> Enter data -> Paste column names, undo headers -> OK
 - Name the table as "Headers"
