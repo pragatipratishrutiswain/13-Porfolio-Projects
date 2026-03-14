@@ -10,7 +10,7 @@
 - Select "Batting"
 - Team: India
 - Opposition: South Africa
-- Home or away: home
+- Home or away: Select Non
 - Submit query
 
 ## Power BI desktop page set up. Go to
